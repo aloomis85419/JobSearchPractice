@@ -1,0 +1,7 @@
+1. Create generic list node object with next node and value
+2. The newhead 0f the list will be set to null. Set the heads next node to be equal to the node passed in.
+3. The current node will be equal to the node passed in.
+4. The previous node will be equal to the new head.
+5. each iteration:
+    if the value of the current node is = to k set previous.next = current.next and set the value of current to be current.next
+    else set the previous = current (advances one position) and current = current.next
