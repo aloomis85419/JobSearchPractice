@@ -3,7 +3,6 @@ import java.util.List;
 public class isListPalindrome {
 
 
-    //improve performance to O(n)
     public boolean isListPalindrome(ListNode<Integer> l) {
         if (l == null) {
             return true;
